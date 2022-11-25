@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
+import { time } from 'console';
 
 function App() {
   const header = [(
@@ -60,32 +61,36 @@ function App() {
       }}>
         <Card style={{
           color: "#1d1d1f",
-          maxWidth: "150px",
-          maxHeight: "350px",
+          minWidth: "150px",
+          minHeight: "350px",
           borderRadius: "20px",
           boxShadow: "rgb(0 0 0 / 75%) 6px 6px 0px 0px",
           padding: "0px",
         }} footer={footer[0]} header={header[0]}>
           <h1 style={{ fontSize: "15px" }}>Chayanon Pond</h1>
-          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-            quisquam repellat libero asperiores earum nam nobis</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>ชื่อ ปอน</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>อายุ 20 ปี</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>โสด</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>เล่น valorant</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>ชอบดู netflix</p>
         </Card>
         <Card style={{
           color: "#1d1d1f",
-          maxWidth: "150px",
-          maxHeight: "350px",
+          minWidth: "150px",
+          minHeight: "350px",
           borderRadius: "20px",
           boxShadow: "rgb(0 0 0 / 75%) 6px 6px 0px 0px",
           padding: "0px!important",
           margin: "0p!importantx",
         }} footer={footer[1]} header={header[1]}>
           <h1 style={{ fontSize: "15px" }}>Anupap Guy</h1>
-          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
-            quisquam repellat libero asperiores earum nam nobis</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>ชื่อ กาย</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>อายุ 21 ปี</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>มีแฟนแล้ว</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>เล่น valorant</p>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>ชอบกินเหล้ามากมาก</p>
         </Card>
       </div>
-
-
     </div >
   );
 }
