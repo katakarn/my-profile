@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.p-card .p-card-content {
+  padding: 0px !important;
+}
+
+.p-card-footer {
+  padding: 0px !important;
 }
