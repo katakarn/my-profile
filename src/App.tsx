@@ -66,8 +66,8 @@ function App() {
           boxShadow: "rgb(0 0 0 / 75%) 6px 6px 0px 0px",
           padding: "0px",
         }} footer={footer[0]} header={header[0]}>
-          <h1 style={{ fontSize: "1px" }}>Chayanon Pond</h1>
-          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "1px", padding: "0px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+          <h1 style={{ fontSize: "15px" }}>Chayanon Pond</h1>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
             quisquam repellat libero asperiores earum nam nobis</p>
         </Card>
         <Card style={{
@@ -79,8 +79,8 @@ function App() {
           padding: "0px!important",
           margin: "0p!importantx",
         }} footer={footer[1]} header={header[1]}>
-          <h1 style={{ fontSize: "1px" }}>Anupap Guy</h1>
-          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "1px", padding: "0px!important" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+          <h1 style={{ fontSize: "15px" }}>Anupap Guy</h1>
+          <p className="m-0" style={{ lineHeight: '1.5', margin: '0px', fontSize: "12px", padding: "0px!important" }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
             quisquam repellat libero asperiores earum nam nobis</p>
         </Card>
       </div>
